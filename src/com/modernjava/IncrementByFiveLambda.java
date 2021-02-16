@@ -1,0 +1,8 @@
+package com.modernjava;
+
+public class IncrementByFiveLambda {
+    public static void main(String[] args) {
+        IncrementByFive incrementByFiveInterface = (x) -> x + 5;
+        System.out.println(incrementByFiveInterface.incrementByFive(2));
+    }
+}
